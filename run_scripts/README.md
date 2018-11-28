@@ -1,3 +1,3 @@
 # ProMP-Pytorch
 
-Only ProMP_run_mujoco is finished, others are still working in progress.
+Only pro-mp_run_mujoco.py is finished, others are still in progress.
