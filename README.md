@@ -6,7 +6,7 @@ Some notes:
 
 1. In origin implementation, 'phs' means placeholders. It takes me half a day to realize this.  
 
-2. As gradient descent is adopted, the weight and bias of the n-th inner adaptive step are intermediate result because they are obtained from the gradient of the loss w.r.t the weight and bias of (n-1)-th adaptive step, which are also a intermediate result except n=1, and **the compution of gradient used in inner adaptive step are parts of compution graph of the outer optimization** and can be backward. This is the most interesting thing. When we constract a compution graph, we can use gradient just like plus or minus?!  
+2. As gradient descent is adopted, the weight and bias of the n-th inner adaptive step are intermediate result because they are obtained from the gradient of the loss w.r.t the weight and bias of (n-1)-th adaptive step, which are also a intermediate result except n=1, and **the compution of gradient used in inner adaptive step are parts of compution graph of the outer optimization** and can be backward. This is the most interesting thing. When we create a compution graph, we can use gradient just like plus or minus?!  
 
 ## Requirement
 
