@@ -1,0 +1,255 @@
+Logging to tmp
+
+ ---------------- Iteration 0 ----------------
+Sampling set of tasks/goals for this meta-batch...
+** Step 0 **
+Obtaining samples...
+Processing samples...
+Computing inner policy updates...
+** Step 1 **
+Obtaining samples...
+Processing samples...
+Computing inner policy updates...
+** Step 2 **
+Obtaining samples...
+Processing samples...
+Optimizing policy...
+Optimizing
+Computing statistics
+Saving snapshot...
+Saved
+-------------------------------------------
+| Itr                     | 0             |
+| ItrTime                 | 5.7           |
+| KLCoeffInner            | 0.0005        |
+| KLInner                 | 1.4906585     |
+| LossAfter               | 0.2612889     |
+| LossBefore              | -0.0008984825 |
+| Step_0-AverageDiscou... | 232           |
+| Step_0-AveragePolicyStd | 1.0           |
+| Step_0-AverageReturn    | 316           |
+| Step_0-EnvExecTime      | 1.06          |
+| Step_0-MaxReturn        | 390           |
+| Step_0-MinReturn        | 258           |
+| Step_0-NumTrajs         | 14            |
+| Step_0-PolicyExecTime   | 0.12          |
+| Step_0-StdReturn        | 40            |
+| Step_1-AverageDiscou... | 228           |
+| Step_1-AveragePolicyStd | 1.0000702     |
+| Step_1-AverageReturn    | 308           |
+| Step_1-EnvExecTime      | 1.04          |
+| Step_1-MaxReturn        | 385           |
+| Step_1-MinReturn        | 259           |
+| Step_1-NumTrajs         | 16            |
+| Step_1-PolicyExecTime   | 0.114         |
+| Step_1-StdReturn        | 41.6          |
+| Step_2-AverageDiscou... | 233           |
+| Step_2-AveragePolicyStd | 0.99690986    |
+| Step_2-AverageReturn    | 318           |
+| Step_2-EnvExecTime      | 1.12          |
+| Step_2-MaxReturn        | 361           |
+| Step_2-MinReturn        | 262           |
+| Step_2-NumTrajs         | 14            |
+| Step_2-PolicyExecTime   | 0.121         |
+| Step_2-StdReturn        | 28.5          |
+| Time                    | 5.7           |
+| Time-InnerStep          | 0.12          |
+| Time-MAMLSteps          | 0.282         |
+| Time-OuterStep          | 0.281         |
+| Time-SampleProc         | 1.68          |
+| Time-Sampling           | 3.62          |
+| Time-TotalInner         | 5.42          |
+| n_timesteps             | 2700          |
+-------------------------------------------
+
+ ---------------- Iteration 1 ----------------
+Sampling set of tasks/goals for this meta-batch...
+** Step 0 **
+Obtaining samples...
+Processing samples...
+Computing inner policy updates...
+** Step 1 **
+Obtaining samples...
+Processing samples...
+Computing inner policy updates...
+** Step 2 **
+Obtaining samples...
+Processing samples...
+Optimizing policy...
+Optimizing
+Computing statistics
+Saving snapshot...
+Saved
+--------------------------------------------
+| Itr                     | 1              |
+| ItrTime                 | 5.14           |
+| KLCoeffInner            | 0.0005         |
+| KLInner                 | 0.8665544      |
+| LossAfter               | 0.28513634     |
+| LossBefore              | -0.00013205678 |
+| Step_0-AverageDiscou... | 208            |
+| Step_0-AveragePolicyStd | 0.999417       |
+| Step_0-AverageReturn    | 275            |
+| Step_0-EnvExecTime      | 1.02           |
+| Step_0-MaxReturn        | 320            |
+| Step_0-MinReturn        | 246            |
+| Step_0-NumTrajs         | 15             |
+| Step_0-PolicyExecTime   | 0.113          |
+| Step_0-StdReturn        | 20.5           |
+| Step_1-AverageDiscou... | 212            |
+| Step_1-AveragePolicyStd | 0.99331456     |
+| Step_1-AverageReturn    | 281            |
+| Step_1-EnvExecTime      | 1.08           |
+| Step_1-MaxReturn        | 314            |
+| Step_1-MinReturn        | 263            |
+| Step_1-NumTrajs         | 15             |
+| Step_1-PolicyExecTime   | 0.116          |
+| Step_1-StdReturn        | 15.2           |
+| Step_2-AverageDiscou... | 213            |
+| Step_2-AveragePolicyStd | 0.9947203      |
+| Step_2-AverageReturn    | 285            |
+| Step_2-EnvExecTime      | 1.04           |
+| Step_2-MaxReturn        | 376            |
+| Step_2-MinReturn        | 231            |
+| Step_2-NumTrajs         | 16             |
+| Step_2-PolicyExecTime   | 0.117          |
+| Step_2-StdReturn        | 32             |
+| Time                    | 10.9           |
+| Time-InnerStep          | 0.016          |
+| Time-MAMLSteps          | 0.215          |
+| Time-OuterStep          | 0.214          |
+| Time-SampleProc         | 1.37           |
+| Time-Sampling           | 3.54           |
+| Time-TotalInner         | 4.92           |
+| n_timesteps             | 5400           |
+--------------------------------------------
+
+ ---------------- Iteration 2 ----------------
+Sampling set of tasks/goals for this meta-batch...
+** Step 0 **
+Obtaining samples...
+Processing samples...
+Computing inner policy updates...
+** Step 1 **
+Obtaining samples...
+Processing samples...
+Computing inner policy updates...
+** Step 2 **
+Obtaining samples...
+Processing samples...
+Optimizing policy...
+Optimizing
+Computing statistics
+Saving snapshot...
+Saved
+------------------------------------------
+| Itr                     | 2            |
+| ItrTime                 | 5.35         |
+| KLCoeffInner            | 0.0005       |
+| KLInner                 | 1.1188713    |
+| LossAfter               | 0.2423257    |
+| LossBefore              | 0.0019685617 |
+| Step_0-AverageDiscou... | 210          |
+| Step_0-AveragePolicyStd | 0.9995428    |
+| Step_0-AverageReturn    | 277          |
+| Step_0-EnvExecTime      | 1.12         |
+| Step_0-MaxReturn        | 303          |
+| Step_0-MinReturn        | 255          |
+| Step_0-NumTrajs         | 15           |
+| Step_0-PolicyExecTime   | 0.127        |
+| Step_0-StdReturn        | 14.5         |
+| Step_1-AverageDiscou... | 215          |
+| Step_1-AveragePolicyStd | 0.9969676    |
+| Step_1-AverageReturn    | 287          |
+| Step_1-EnvExecTime      | 1.03         |
+| Step_1-MaxReturn        | 314          |
+| Step_1-MinReturn        | 255          |
+| Step_1-NumTrajs         | 15           |
+| Step_1-PolicyExecTime   | 0.122        |
+| Step_1-StdReturn        | 16.5         |
+| Step_2-AverageDiscou... | 219          |
+| Step_2-AveragePolicyStd | 0.9987753    |
+| Step_2-AverageReturn    | 295          |
+| Step_2-EnvExecTime      | 1.05         |
+| Step_2-MaxReturn        | 364          |
+| Step_2-MinReturn        | 255          |
+| Step_2-NumTrajs         | 14           |
+| Step_2-PolicyExecTime   | 0.119        |
+| Step_2-StdReturn        | 27.1         |
+| Time                    | 16.2         |
+| Time-InnerStep          | 0.156        |
+| Time-MAMLSteps          | 0.226        |
+| Time-OuterStep          | 0.226        |
+| Time-SampleProc         | 1.36         |
+| Time-Sampling           | 3.61         |
+| Time-TotalInner         | 5.13         |
+| n_timesteps             | 8100         |
+------------------------------------------
+
+ ---------------- Iteration 3 ----------------
+Sampling set of tasks/goals for this meta-batch...
+** Step 0 **
+Obtaining samples...
+Processing samples...
+Computing inner policy updates...
+** Step 1 **
+Obtaining samples...
+Processing samples...
+Computing inner policy updates...
+** Step 2 **
+Obtaining samples...
+Processing samples...
+Optimizing policy...
+Optimizing
+Computing statistics
+Saving snapshot...
+Saved
+-------------------------------------------
+| Itr                     | 3             |
+| ItrTime                 | 5.37          |
+| KLCoeffInner            | 0.0005        |
+| KLInner                 | 0.88190174    |
+| LossAfter               | 0.27394763    |
+| LossBefore              | -0.0006456898 |
+| Step_0-AverageDiscou... | 245           |
+| Step_0-AveragePolicyStd | 0.99974936    |
+| Step_0-AverageReturn    | 333           |
+| Step_0-EnvExecTime      | 1.08          |
+| Step_0-MaxReturn        | 369           |
+| Step_0-MinReturn        | 283           |
+| Step_0-NumTrajs         | 16            |
+| Step_0-PolicyExecTime   | 0.118         |
+| Step_0-StdReturn        | 28.1          |
+| Step_1-AverageDiscou... | 250           |
+| Step_1-AveragePolicyStd | 1.001124      |
+| Step_1-AverageReturn    | 343           |
+| Step_1-EnvExecTime      | 1.12          |
+| Step_1-MaxReturn        | 386           |
+| Step_1-MinReturn        | 305           |
+| Step_1-NumTrajs         | 15            |
+| Step_1-PolicyExecTime   | 0.12          |
+| Step_1-StdReturn        | 17.2          |
+| Step_2-AverageDiscou... | 252           |
+| Step_2-AveragePolicyStd | 1.0036184     |
+| Step_2-AverageReturn    | 347           |
+| Step_2-EnvExecTime      | 1.07          |
+| Step_2-MaxReturn        | 390           |
+| Step_2-MinReturn        | 313           |
+| Step_2-NumTrajs         | 14            |
+| Step_2-PolicyExecTime   | 0.117         |
+| Step_2-StdReturn        | 21.1          |
+| Time                    | 21.6          |
+| Time-InnerStep          | 0.0164        |
+| Time-MAMLSteps          | 0.213         |
+| Time-OuterStep          | 0.212         |
+| Time-SampleProc         | 1.45          |
+| Time-Sampling           | 3.68          |
+| Time-TotalInner         | 5.15          |
+| n_timesteps             | 10800         |
+-------------------------------------------
+
+ ---------------- Iteration 4 ----------------
+Sampling set of tasks/goals for this meta-batch...
+** Step 0 **
+Obtaining samples...
+Processing samples...
