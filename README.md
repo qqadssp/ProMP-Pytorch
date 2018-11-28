@@ -1,12 +1,12 @@
 # ProMP-Pytorch
 
-This is a implementation of ProMP in Pytorch, modified from the [origin ProMP](https://github.com/jonasrothfuss/ProMP). Now the ProMP algorithm can work and I am still working in others(include MAML and e-MAML). Here is the [paper](https://arxiv.org/abs/1810.06784).  
+This is a implementation of ProMP in Pytorch, modified from the [origin ProMP](https://github.com/jonasrothfuss/ProMP). Now the ProMP algorithm can work and I am still working on others(include MAML and e-MAML). Here is the [paper](https://arxiv.org/abs/1810.06784).  
 
 Some notes:  
 
 1. In origin implementation, 'phs' means placeholders. It takes me half a day to realize this.  
 
-2. As gradient descent is adopted, the weight and bias of the n-th inner adaptive step is a intermediate result because it is obtained from the gradient of the loss w.r.t the weight and bias of (n-1)-th adaptive step, which are also a intermediate result except n=1, and the gradient used in inner adaptive step are a part of compution graph of the outer optimization and can be backward. This is the most interesting thing. We can backward a gradient?!  
+2. As gradient descent is adopted, the weight and bias of the n-th inner adaptive step are intermediate result because they are obtained from the gradient of the loss w.r.t the weight and bias of (n-1)-th adaptive step, which are also a intermediate result except n=1, and **the compution of gradient used in inner adaptive step are parts of compution graph of the outer optimization** and can be backward. This is the most interesting thing. When we constract a compution graph, we can use gradient just like plus or minus?!  
 
 ## Requirement
 
